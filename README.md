@@ -4,8 +4,8 @@ A template to deploy [JSON Server](https://github.com/typicode/json-server) to [
 
 Demo from this repository: 
 
-1. https://json-server-in.vercel.app
-2. https://json-server-in.vercel.app/api/posts
+1. https://wallet-test-backend.vercel.app
+2. https://wallet-test-backend.vercel.app/cards
 
 ### How to use
 
@@ -20,13 +20,14 @@ Demo from this repository:
 
 ```json
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "cards": [
+    {
+      "id": "4ec42ba9-50af-40d2-af90-8312edbd9ca2",
+      "number": "3529 5435 3355 8727",
+      "cvv": "317",
+      "name": "John Doe"
+    }
+  ]
 }
 ```
 
